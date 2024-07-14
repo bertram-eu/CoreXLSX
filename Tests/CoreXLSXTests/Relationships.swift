@@ -17,7 +17,7 @@
 
 @testable import CoreXLSX
 import XCTest
-import XMLCoder
+import XMLCodable
 
 private let exampleXML = """
 <Relationships

@@ -1,4 +1,4 @@
-// swift-tools-version:5.1
+// swift-tools-version:5.10
 // The swift-tools-version declares the minimum version of Swift required to
 // build this package.
 
@@ -7,10 +7,10 @@ import PackageDescription
 let package = Package(
   name: "CoreXLSX",
   platforms: [
-    .macOS(.v10_11),
-    .iOS(.v9),
-    .tvOS(.v9),
-    .watchOS(.v2),
+    .macOS(.v14),
+    .iOS(.v17),
+    .tvOS(.v17),
+    .watchOS(.v10),
   ],
   products: [
     // Products define the executables and libraries produced by a package,
@@ -23,10 +23,8 @@ let package = Package(
   dependencies: [
     // Dependencies declare other packages that this package depends on.
     // .package(url: /* package url */, from: "1.0.0"),
-    .package(url: "https://github.com/maxdesiatov/XMLCoder.git",
-             .upToNextMinor(from: "0.14.0")),
-    .package(url: "https://github.com/weichsel/ZIPFoundation.git",
-             .upToNextMinor(from: "0.9.11")),
+    .package(url: "https://github.com/bertram-eu/XMLCodable.git", branch: "main"),
+    .package(url: "https://github.com/weichsel/ZIPFoundation.git", branch: "development"),
   ],
   targets: [
     // Targets are the basic building blocks of a package. A target can define
@@ -35,7 +33,7 @@ let package = Package(
     // packages which this package depends on.
     .target(
       name: "CoreXLSX",
-      dependencies: ["XMLCoder", "ZIPFoundation"]
+      dependencies: ["XMLCodable", "ZIPFoundation"]
     ),
     .testTarget(
       name: "CoreXLSXTests",

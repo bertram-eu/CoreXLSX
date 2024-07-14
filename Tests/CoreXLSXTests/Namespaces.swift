@@ -17,7 +17,7 @@
 
 @testable import CoreXLSX
 import XCTest
-import XMLCoder
+import XMLCodable
 
 private let namespaceXML = """
 <?xml version="1.0" encoding="utf-8"?>

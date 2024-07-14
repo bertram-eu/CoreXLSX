@@ -16,7 +16,7 @@
 //
 
 import Foundation
-import XMLCoder
+import XMLCodable
 import ZIPFoundation
 
 @available(*, deprecated, renamed: "CoreXLSXError")

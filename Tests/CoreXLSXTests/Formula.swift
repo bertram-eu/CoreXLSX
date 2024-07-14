@@ -17,7 +17,7 @@
 
 @testable import CoreXLSX
 import XCTest
-import XMLCoder
+import XMLCodable
 
 private let formulaXML = """
 <row r="11" spans="1:99" ht="13.15" customHeight="1">

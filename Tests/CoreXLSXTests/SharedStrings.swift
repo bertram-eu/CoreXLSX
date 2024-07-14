@@ -17,7 +17,7 @@
 
 @testable import CoreXLSX
 import XCTest
-import XMLCoder
+import XMLCodable
 
 private let parsed = SharedStrings(uniqueCount: 18, items: [
   SharedStrings.Item(text: "Table 1", richText: []),

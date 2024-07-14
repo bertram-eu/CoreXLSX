@@ -17,7 +17,7 @@
 
 @testable import CoreXLSX
 import XCTest
-import XMLCoder
+import XMLCodable
 
 private let xml1 = """
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>

@@ -1,25 +1,24 @@
 {
-  "object": {
-    "pins": [
-      {
-        "package": "XMLCoder",
-        "repositoryURL": "https://github.com/maxdesiatov/XMLCoder.git",
-        "state": {
-          "branch": null,
-          "revision": "ca932442d7481700f5434a7b138c47dd42d9902b",
-          "version": "0.14.0"
-        }
-      },
-      {
-        "package": "ZIPFoundation",
-        "repositoryURL": "https://github.com/weichsel/ZIPFoundation.git",
-        "state": {
-          "branch": null,
-          "revision": "7254c74b49cec2cb81520523ba993c671f71b066",
-          "version": "0.9.14"
-        }
+  "originHash" : "e585925ff90bc7b10f0ce39956879e08a9cf1213dc49cef5b71afaf03d7b65eb",
+  "pins" : [
+    {
+      "identity" : "xmlcodable",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/bertram-eu/XMLCodable.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "e2e7c00335690a7bcc9bb1b33e1e83609dbad0ba"
       }
-    ]
-  },
-  "version": 1
+    },
+    {
+      "identity" : "zipfoundation",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/weichsel/ZIPFoundation.git",
+      "state" : {
+        "revision" : "02b6abe5f6eef7e3cbd5f247c5cc24e246efcfe0",
+        "version" : "0.9.19"
+      }
+    }
+  ],
+  "version" : 3
 }
